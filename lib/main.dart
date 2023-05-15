@@ -1,4 +1,4 @@
-import 'package:destini_challenge_starting/story_brain.dart';
+import 'story_brain.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(Destini());
@@ -17,8 +17,6 @@ StoryBrain storyBrain = StoryBrain();
 class StoryPage extends StatefulWidget {
   _StoryPageState createState() => _StoryPageState();
 }
-//TODO: Step 29 - Run the app and test it against the Story Outline to make sure you've completed all the steps. The code for the completed app can be found here: https://github.com/londonappbrewery/destini-challenge-completed/
-
 class _StoryPageState extends State<StoryPage> {
   @override
   Widget build(BuildContext context) {
